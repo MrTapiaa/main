@@ -22,9 +22,9 @@ local HaxButton = Instance.new("TextButton")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui"):WaitForChild('Doomspire')
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-ScreenGui.ResetOnSpawn = false
+ScreenGui.ResetOnSpawn = true
 
-Frame.Parent = ScreenGui
+Frame.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui"):WaitForChild('Doomspire')
 Frame.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
 Frame.Position = UDim2.new(0.0411428586, 0, 0.534539461, 0)
 Frame.Size = UDim2.new(0, 248, 0, 184)
@@ -109,7 +109,7 @@ TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextSize = 14.000
 
 HaxButton.Name = "HaxButton"
-HaxButton.Parent = ScreenGui
+HaxButton.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui"):WaitForChild('Doomspire')
 HaxButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HaxButton.Position = UDim2.new(0, 0, 0.4375, 0)
 HaxButton.Size = UDim2.new(0, 72, 0, 12)
