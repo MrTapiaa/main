@@ -29,6 +29,7 @@ Frame.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
 Frame.Position = UDim2.new(0.0411428586, 0, 0.534539461, 0)
 Frame.Size = UDim2.new(0, 248, 0, 184)
 Frame.Draggable = true
+Frame.Active = true
 
 RedButton.Name = "RedButton"
 RedButton.Parent = Frame
