@@ -22,6 +22,7 @@ local HaxButton = Instance.new("TextButton")
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = true
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
