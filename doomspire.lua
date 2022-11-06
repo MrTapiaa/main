@@ -1,5 +1,6 @@
 -- Services:
 
+local HapticService = game:GetService('HapticService')
 local Players = game:GetService('Players')
 local TeleportService = game:GetService('TeleportService')
 
